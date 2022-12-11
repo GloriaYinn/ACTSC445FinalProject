@@ -9,7 +9,7 @@ import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
 
-stock_data = yf.download('AAPL', start='2017-01-01', end='2021-10-01')
+stock_data = yf.download('AAPL', start='2017-01-01', end='2022-12-01')
 stock_data.head()
 
 
