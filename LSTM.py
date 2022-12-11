@@ -1,5 +1,4 @@
 # Acquisition of Stock Data
-
 import math
 import yfinance as yf
 import numpy as np
