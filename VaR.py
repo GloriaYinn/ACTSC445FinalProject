@@ -9,7 +9,7 @@ import seaborn
 import matplotlib.mlab as mlab
 
 # Calculate the daily returns and plot
-df = ？  ## Get from LSTM
+df = Predictions  ## Get from LSTM
 df = df[['Close']]
 df['returns'] = df.Close.pct_change()
 df = df.dropna()
