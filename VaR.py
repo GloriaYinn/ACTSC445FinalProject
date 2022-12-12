@@ -11,7 +11,7 @@ import matplotlib.mlab as mlab
 # Calculate the daily returns and plot
 df = Predictions  ## Get from LSTM
 df = df[['Close']]
-df['returns'] = df.Close.pct_change()
+df['returns'] = df.Close.pct_change()  ## Extract the returns
 df = df.dropna()
 plt.hist(df.returns, bins=40)
 plt.xlabel('Returns')
